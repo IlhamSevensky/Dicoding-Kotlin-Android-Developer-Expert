@@ -4,8 +4,6 @@
 
 + Using Kotlin
 
-
-
 ### Submission 1 : Aplikasi Football League
 
 #### Kriteria Aplikasi
@@ -15,7 +13,7 @@ Fitur yang harus ada pada aplikasi:
 1. **Daftar Liga**  
    Halaman utama yang menampilkan daftar liga (**nama** dan **logo**) dengan jumlah minimal **5** item.
 
-2. **Detail Liga** 
+2. **Detail Liga**  
    Halaman detail yang menampilkan Informasi mengenai liga yang dipilih (**nama**,**logo** dan **keterangan singkat**).
 
 Komponen yang harus diterapkan:
@@ -27,8 +25,6 @@ Komponen yang harus diterapkan:
 3. **Anko Layout** untuk menyusun tampilan dari semua halaman.
 
 4. **Kotlin Android Extensions** untuk penerapan Parcelable atau binding view.
-
-
 
 ### Submission 2 : Aplikasi Football Match Schedule
 
@@ -48,8 +44,6 @@ Beberapa fitur yang harus dimodifikasi atau ditambahkan pada aplikasi:
 4. **Pencarian Pertandingan**  
    Fitur untuk melakukan pencarian pertandingan sepakbola.
 
-
-
 ### Submission 3 : Aplikasi Football Match Schedule dengan Database
 
 #### Kriteria Aplikasi
@@ -67,8 +61,6 @@ Beberapa fitur yang harus ditambahkan pada aplikasi:
 
 2. **Mempertahankan fitur submission sebelumnya**
 
-
-
 ### Submission 4 : Menerapkan Unit Tests dan Instrumentation Tests pada Project
 
 #### Kriteria Pengujian
@@ -82,8 +74,6 @@ Beberapa fitur yang harus ditambahkan pada aplikasi:
    - Menerapkan instrumentation test untuk memastikan **fitur pencarian** pertandingan berjalan dengan semestinya.
 
 3. **Mempertahankan fitur dan komponen yang ada pada submission sebelumnya.**
-
-
 
 ### Project Akhir : Football Apps
 
@@ -119,5 +109,3 @@ Beberapa fitur opsional yang bisa Anda tambahkan:
 
 - **Detail Pemain**  
   Halaman detail pemain yang menampilkan **nama** , **fan art** dan **informasi lainnya** dari pemain yang dipilih.
-
-
