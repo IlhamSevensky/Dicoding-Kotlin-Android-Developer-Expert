@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Football Match Schedule</string>
+    <string name="tab_title_past_match">LAST MATCH</string>
+    <string name="tab_title_next_match">NEXT MATCH</string>
+    <string name="empty_data">-</string>
+    <string name="match_round">Round %s</string>
+    <string name="search_match">Search Match</string>
+    <string name="match_detail">Match Detail</string>
+    <string name="match_postponed">Match Postponed</string>
+    <string name="match_fulltime">Full Time</string>
+    <string name="match_statistic">Match Statistic</string>
+    <string name="formation">Formation</string>
+    <string name="goal">Goal</string>
+    <string name="shot">Shot</string>
+    <string name="red_card">Red Card</string>
+    <string name="yellow_card">Yellow Card</string>
+    <string name="lineup">Lineup</string>
+    <string name="goalkeeper">Goalkeeper</string>
+    <string name="defender">Defender</string>
+    <string name="midfielder">Midfielder</string>
+    <string name="striker">Striker</string>
+    <string name="colon">:</string>
+    <string name="search_menu">Search</string>
+    <string name="image_league">image_league</string>
+    <string name="image_home_team">image_home_team</string>
+    <string name="image_away_team">image_away_team</string>
+</resources>

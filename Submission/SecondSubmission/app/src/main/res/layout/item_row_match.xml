@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    tools:showIn="@layout/fragment_past_match">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_match_round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0"
+            tools:text="Manchester United vs Manchester City" />
+
+        <TextView
+            android:id="@+id/tv_match_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_match_round"
+            app:layout_constraintVertical_bias="0"
+            tools:text="10 Januari 2010 / 08:00 GMT +7" />
+
+        <ImageView
+            android:id="@+id/img_match_home_team"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_match_schedule"
+            tools:background="@color/black"
+            android:contentDescription="@string/image_home_team" />
+
+        <TextView
+            android:id="@+id/tv_match_home_team"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@id/img_match_home_team"
+            app:layout_constraintTop_toBottomOf="@id/img_match_home_team"
+            tools:text="Manchester United" />
+
+        <ImageView
+            android:id="@+id/img_match_away_team"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_match_schedule"
+            tools:background="@color/black"
+            android:contentDescription="@string/image_away_team" />
+
+        <TextView
+            android:id="@+id/tv_match_away_team"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/img_match_away_team"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_match_away_team"
+            tools:text="Manchester City" />
+
+        <TextView
+            android:id="@+id/tv_match_home_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="@id/img_match_home_team"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintStart_toEndOf="@id/img_match_home_team"
+            app:layout_constraintTop_toTopOf="@id/img_match_home_team"
+            android:text="@string/empty_data" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colon"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_match_away_team"
+            app:layout_constraintEnd_toStartOf="@id/img_match_away_team"
+            app:layout_constraintStart_toEndOf="@+id/img_match_home_team"
+            app:layout_constraintTop_toTopOf="@+id/img_match_home_team" />
+
+        <TextView
+            android:id="@+id/tv_match_away_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@id/img_match_away_team"
+            app:layout_constraintEnd_toStartOf="@id/img_match_away_team"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@id/img_match_away_team"
+            android:text="@string/empty_data" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

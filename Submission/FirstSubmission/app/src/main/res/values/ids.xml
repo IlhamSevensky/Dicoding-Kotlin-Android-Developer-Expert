@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_liga_name" type="id"/>
+    <item name="img_liga" type="id" />
+    <item name="tv_detail_liga_name" type="id"/>
+    <item name="tv_detail_liga_overview" type="id"/>
+    <item name="img_detail_liga" type="id"/>
+    <item name="rv_liga" type="id"/>
+</resources>
